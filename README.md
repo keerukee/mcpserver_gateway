@@ -6,7 +6,7 @@ Welcome to the Secure Model Context Protocol (MCP) Gateway! This repository demo
 
 Building an HTTP-based MCP server in .NET shouldn't be complicated. This entire architecture is built on top of the **[McpHttpServer](https://www.nuget.org/packages/McpHttpServer)** NuGet package. 
 
-If you are looking to build robust, scalable, and seamless AI tools in .NET, `McpHttpServer` does the heavy lifting for you! It abstracts away the complex SSE (Server-Sent Events) and JSON-RPC lifecycle, allowing you to focus purely on writing your custom logic. 
+If you are looking to build robust, scalable, and seamless AI tools in .NET, `McpHttpServer` does the heavy lifting for you! It abstracts away the complex Streamable HTTP Protocol and JSON-RPC lifecycle, allowing you to focus purely on writing your custom logic. (It fully implements the official Streamable HTTP MCP standard, not just basic SSE!). 
 
 **Why use `McpHttpServer`?**
 - **Dead Simple Setup:** Spin up a fully compliant MCP server with just a few lines of code.
