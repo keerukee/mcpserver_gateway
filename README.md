@@ -54,7 +54,7 @@ Navigate to `http://localhost:5177/generate-token` in your browser and copy the 
 
 ### 4. Connect via MCP Inspector
 Run the MCP Inspector in a separate terminal: `npx @modelcontextprotocol/inspector`
-- **Transport:** SSE
+- **Transport:** Streamable HTTP
 - **URL:** `http://localhost:5177/mcp1` (Change to `/mcp2` or `/mcp3` to reach the other servers)
 - **Custom Headers:** 
   - **Key:** `Authorization`
